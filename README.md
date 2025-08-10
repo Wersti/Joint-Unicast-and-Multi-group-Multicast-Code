@@ -1,28 +1,49 @@
-# Transmisión Conjunta Unicast y Multidifusión Multi-grupo en Sistemas de MIMO Masivos
 
-Este repositorio contiene código MATLAB y documentación asociada para la implementación de la transmisión conjunta unicast y multidifusión multi-grupo en sistemas de MIMO masivos, basado en el artículo:
+# Joint Unicast and Multi-Group Multicast Transmission in Massive MIMO Systems
 
-**Transmisión Conjunta Unicast y Multidifusión Multi-grupo en Sistemas de MIMO Masivos**  
-Meysam Sadeghi, Emil Björnson, Erik G. Larsson, Chau Yuen y Thomas L. Marzetta  
-[Enlace al Artículo](https://arxiv.org/abs/1911.08165)
+This repository contains MATLAB code and associated documentation for the implementation of joint unicast and multi-group multicast transmission in massive MIMO systems, based on the paper:
 
-Para la realización de un TFG
-## Resumen
+**Joint Unicast and Multi-Group Multicast Transmission in Massive MIMO Systems**  
+Meysam Sadeghi, Emil Björnson, Erik G. Larsson, Chau Yuen, and Thomas L. Marzetta  
+[View on arXiv](https://arxiv.org/abs/1911.08165)
 
-El artículo explora la optimización de la transmisión conjunta unicast y multidifusión multi-grupo en sistemas de MIMO masivos, considerando factores como estimación de canal, control de potencia, contaminación de pilotos y pérdida de trayectoria. El objetivo es maximizar la eficiencia espectral abordando objetivos conflictivos y desafíos de asignación de recursos.
+Developed as part of a Bachelor’s Thesis.
 
-## Contenidos
+---
 
-- `Códigos/`: Código MATLAB para simulaciones y resultados numéricos.
+## Summary
 
-- `Gráficas/`: Resultados obtenidos de simulaciones y experimentos numéricos.
+The paper investigates optimization strategies for joint unicast and multi-group multicast transmission in massive MIMO systems, considering factors such as channel estimation, power control, pilot contamination, and path loss.  
+The goal is to maximize spectral efficiency while addressing conflicting objectives and resource allocation challenges.
 
-## Uso
+---
 
-Para utilizar el código MATLAB proporcionado en este repositorio, sigue estos pasos:
+## Repository Structure
 
-1. Clona o descarga el repositorio en tu máquina local.
-2. Navega hasta el directorio `código/`.
-3. Abre MATLAB y ejecuta los scripts o funciones según sea necesario.
+- **`/Codes/`** – MATLAB code for simulations and numerical experiments.  
+- **`/Figures/`** – Simulation results and numerical experiment outputs.
 
-Para explicaciones más detalladas, consultar el artículo`.
+---
+
+## Usage
+
+To run the provided MATLAB code:
+
+1. Clone or download this repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/yourrepository.git
+    ```
+
+2. Navigate to the `Codes/` directory.
+3. Open MATLAB and run the desired scripts or functions.
+
+For a detailed explanation of the theoretical background and methodology, please refer to the [paper](https://arxiv.org/abs/1911.08165).
+
+---
+
+## License
+
+This work is licensed under the **Creative Commons Zero v1.0 Universal** license.
+You are free to copy, modify, distribute, and use the work, including for commercial purposes, without asking permission.
+
+See the [LICENSE](LICENSE) file for details.
