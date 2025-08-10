@@ -31,7 +31,7 @@ To run the provided MATLAB code:
 
 1. Clone or download this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/Wersti/Joint-Unicast-and-Multi-group-Multicast-Code.git
     ```
 
 2. Navigate to the `Codes/` directory.
